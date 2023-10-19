@@ -26,7 +26,7 @@ def connect_database(database, user, password, host, port):
         print("Database connection has already been opened")
 
 def disconnect_database():
-    
+    print("------------------")
     global database_connected
      
     if database_connected:
